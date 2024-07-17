@@ -62,7 +62,6 @@ function animateSpin(resultIndex) {
             drawMarker(resultIndex);
         } else {
             drawWheel();
-            drawMarker(null);
             ctx.save();
             ctx.translate(centerX, centerY);
             ctx.rotate(currentAngle);
